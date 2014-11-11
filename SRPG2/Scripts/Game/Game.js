@@ -14,7 +14,7 @@
         _server.game.create();
     },
     startGame: function (game) {
-        
+        currentGame = game;
     },
     addPlayer: function (game, player) {
         game.players.push(player);

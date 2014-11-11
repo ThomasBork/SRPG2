@@ -199,13 +199,16 @@
     <Content Include="Scripts\Game\Battle.js" />
     <Content Include="Scripts\Game\CharacterType.js" />
     <Content Include="Scripts\Game\Effect.js" />
-    <Content Include="Scripts\Game\GlobalVariables.js" />
+    <Content Include="Scripts\Menu\Page.js" />
+    <Content Include="Scripts\Shared\GlobalVariables.js" />
     <Content Include="Scripts\Game\Item.js" />
     <Content Include="Scripts\Game\ItemAttribute.js" />
     <Content Include="Scripts\Game\ItemAbility.js" />
     <Content Include="Scripts\Game\Player.js" />
     <Content Include="Scripts\Game\Game.js" />
+    <Content Include="Scripts\Shared\Initialization.js" />
     <Content Include="Scripts\Shared\Server.js" />
+    <Content Include="Scripts\UI\Templates\Templates.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -229,6 +232,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Pages\_Home.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Pages\_Game.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Templates\_Player.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

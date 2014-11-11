@@ -7,12 +7,12 @@
                     id: 0
                 }
             }
-            currentGame = _game.new(
+            var newGame = _game.new(
                 {
                     id: response.game.id
                 }
             );
-            _game.startGame(currentGame);
+            _game.startGame(newGame);
         }
     }
 };

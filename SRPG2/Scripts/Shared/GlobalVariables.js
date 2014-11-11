@@ -1,2 +1,2 @@
 ﻿var currentGame = null;
-var playerInfo = null;
+var playerLoggedIn = null;

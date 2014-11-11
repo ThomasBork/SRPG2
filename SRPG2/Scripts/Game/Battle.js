@@ -4,8 +4,7 @@
             currentTick: 0,
             players: [],
             characterTypes: [],
-            nextActions: [],
-            currentPlayer: null
+            nextActions: []
         };
         var returnObject = $.extend({}, defaults, options);
         return returnObject;
@@ -15,12 +14,5 @@
     },
     addCharacterType: function (battle, characterType) {
         battle.characterTypes.push(characterType);
-    },
-    setCurrentPlayer: function (battle, player) {
-        for (var index in battle.players) {
-            battle.players[index].isCurrentPlayer = false;
-        }
-        battle.currentPlayer = player;
-        player.isCurrentPlayer = true;
     }
 };
