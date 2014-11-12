@@ -199,6 +199,7 @@
     <Content Include="Scripts\Game\Battle.js" />
     <Content Include="Scripts\Game\CharacterType.js" />
     <Content Include="Scripts\Game\Effect.js" />
+    <Content Include="Scripts\Game\Test.js" />
     <Content Include="Scripts\Menu\Page.js" />
     <Content Include="Scripts\Shared\GlobalVariables.js" />
     <Content Include="Scripts\Game\Item.js" />
@@ -238,6 +239,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Templates\_Player.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Templates\_Character.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

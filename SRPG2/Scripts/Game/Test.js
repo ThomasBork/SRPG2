@@ -1,7 +1,12 @@
 ﻿var _test = {
     getRandomCharacter: function () {
         var returnObject = _character.new({
-            name: _test.getRandomString(8)
+            name: _test.getRandomString(8),
+            baseHp: _test.getRandomNumber(100, 200),
+            hpPerLevel: _test.getRandomNumber(100, 200) / 10,
+            baseMp: _test.getRandomNumber(100, 200),
+            mpPerLevel: _test.getRandomNumber(100, 200) / 10,
+            level: _test.getRandomNumber(8, 14)
         });
         return returnObject;
     },

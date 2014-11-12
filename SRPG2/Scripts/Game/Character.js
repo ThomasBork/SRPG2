@@ -3,8 +3,10 @@
         var defaults = {
             name: '',
             abilities: [],
-            hp: null,
-            mp: 0,
+            baseHp: null,
+            hpPerLevel: 0,
+            baseMp: 0,
+            mpPerLevel: 0,
             characterAttributes: [],
             level: null,
             experience: 0,

@@ -28,5 +28,12 @@
         }
         game.host = player;
         player.isHost = true;
+    },
+    getPlayerFromId: function (game, id) {
+        for (var index in game.players) {
+            if (game.players[index].id == id) {
+                return game.players[index].id;
+            }
+        }
     }
 };
